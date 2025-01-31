@@ -45,7 +45,7 @@ const WorkflowCard = ({ workflow }: { workflow: Workflow }) => {
             )}
           >
             {isDraft ? (
-              <FileTextIcon className="sixe-4" />
+              <FileTextIcon className="size-4" />
             ) : (
               <PlayIcon className="size-4 text-white" />
             )}
